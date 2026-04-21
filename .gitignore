@@ -1,0 +1,31 @@
+.git/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+*.swp
+
+# Local docs and archives
+*.pdf
+*.zip
+
+# Large/raw/generated datasets
+*.arrow
+**/filtered_financial_news_5k.jsonl
+**/reward_data/
+**/data/sft/*.jsonl
+**/data/sft/.ipynb_checkpoints/
+
+# Training outputs and checkpoints
+**/output/
+**/outputs/
+**/logs/
+**/checkpoint*/
+**/checkpoints/
+**/running_services.json
+
+# Environment / secrets
+.env
+.env.*

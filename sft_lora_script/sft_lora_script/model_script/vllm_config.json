@@ -1,0 +1,22 @@
+{
+  "models": [
+    {
+      "name": "original",
+      "path": "/root/autodl-tmp/model/DeepSeek-R1-Distill-Qwen-7B",
+      "port": 8000,
+      "gpu_devices": [0],
+      "gpu_memory_utilization": 0.8,
+      "max_model_len": 4096,
+      "dtype": "bfloat16"
+    },
+    {
+      "name": "finetuned",
+      "path": "/root/autodl-tmp/finetune_output/final_complete_model",
+      "port": 8001,
+      "gpu_devices": [1],
+      "gpu_memory_utilization": 0.8,
+      "max_model_len": 4096,
+      "dtype": "bfloat16"
+    }
+  ]
+}

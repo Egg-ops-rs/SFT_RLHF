@@ -1,0 +1,9 @@
+{
+  "total_samples": 1200,
+  "successful_requests": 308,
+  "failed_requests": 892,
+  "accuracy": 100.0,
+  "avg_response_time": 9.542004543465453,
+  "avg_preference_strength": 0.9994720527167331,
+  "total_time": 253.59463143348694
+}
