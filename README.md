@@ -1,8 +1,19 @@
 # SFT_RLHF
 
+![Domain](https://img.shields.io/badge/Domain-Financial%20LLM-blue)
+![Pipeline](https://img.shields.io/badge/Pipeline-SFT%20--%3E%20RM%20--%3E%20GRPO-green)
+![Training](https://img.shields.io/badge/Training-LoRA%20%2B%20DeepSpeed-orange)
+![Inference](https://img.shields.io/badge/Inference-vLLM-purple)
+
 金融领域大模型微调与优化项目代码仓库，覆盖监督微调（SFT）、奖励模型训练（RM）、基于 GRPO 的对齐训练、模型评测、推理对比与部署脚本，目标是构建面向金融分析场景的产品级 AI 助手。
 
 > 面向金融分析助手场景的大模型训练工程实践，包含数据构建、SFT、奖励模型、GRPO 对齐、评测与部署的完整闭环。
+>
+> An engineering-oriented financial LLM fine-tuning project covering data construction, supervised fine-tuning, reward modeling, GRPO alignment, multi-GPU evaluation, and inference comparison.
+
+## 一句话介绍
+
+这是一个围绕金融问答、财经新闻分析、风险提示与合规表达优化展开的垂直大模型训练项目，重点展示 `SFT -> 奖励模型 -> GRPO` 的完整工程链路。
 
 ## 项目亮点
 
